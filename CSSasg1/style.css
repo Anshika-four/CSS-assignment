@@ -1,0 +1,36 @@
+body{
+	margin: 0;
+	background-color: #D8DA3D;
+	color: #80007E;
+	font-family: sans-serif;
+}
+footer{
+	font-style: italic;
+}
+.container{
+	display: flex;
+	padding: 20px;
+}
+.content{
+	flex: 1;
+}
+.sidebar{
+	width: 220px;
+	margin-right: 60px;
+	margin-top: 50px;
+}
+.sidebar a{
+	display: block;
+	background: white;
+	color: #80007E;
+	text-decoration: none;
+	margin-bottom: 8px;
+	font-family: Georgia;
+	padding: 10px;
+	height: 15px;
+	border-right: 12px solid black;
+}
+hr{
+	border: 1px dotted #80007E;
+	margin: 25px 0;
+}
