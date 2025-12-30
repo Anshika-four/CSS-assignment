@@ -1,0 +1,49 @@
+body{
+    margin: 50px;
+    padding: 0;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.first{ 
+    border: 2px solid black;
+    padding: 0;
+}
+.first img{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center top;
+}
+.first p{
+    margin-left: 10px;
+}
+.second p{
+    margin-left: 10px;
+}
+.second{
+    margin-top: 100px;
+    border: 2px solid black;
+}
+.second img{
+    height: 250px;
+    object-fit: cover;
+    object-position: center bottom;
+    width: 100%;
+}
+.third{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.third img{
+    height: 300px;
+    width: 500px;
+    align-items: center;
+}
+.third p{
+    align-self: flex-start;
+}
